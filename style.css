@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D5E1EF;
+    font-family: outfit;  
+}
+
+#main_card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    width: 320px;
+    margin-top: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.qr {
+    width: 288px;
+    height: 288px;
+    background-color:#2C7DFA;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px; 
+}
+
+.oval1 {
+    width: 270px;
+    height: 270px;
+    background-color: #3685FF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 124px;
+    right: 91px;
+}
+
+.oval2 {
+    width: 270px;
+    height: 270px;
+    background-color: #3685FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 204px;
+    left: 131px;
+}
+
+.qr_image {
+    position: absolute;
+    right: 64px;
+    top: 64px;
+}
+
+.text {
+    margin-top: 24px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+    color:hsla(217, 44%, 22%, 1);
+    width: 288px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.body {
+    font-size: 15px;
+    color: hsla(219, 15%, 55%, 1);
+    width: 256px;
+    text-align: center;
+    margin: 16px auto 40px auto;
+}
